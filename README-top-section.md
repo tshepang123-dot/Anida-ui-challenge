@@ -1,10 +1,9 @@
 # Anida UI Challenge
 
 A React + TypeScript front-end implementation of a chosen UI design, built with Vite and styled using plain CSS. Created as part of the ReactTS UI Challenge (React Lesson 2), focused on layout accuracy, responsiveness, and reusable component design.
-
+tshepang
 ## 🔗 Live Demo
 
-[View on Netlify](YOUR_NETLIFY_URL_HERE)
 
 ## 📋 About the Project
 
