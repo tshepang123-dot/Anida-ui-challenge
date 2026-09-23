@@ -1,0 +1,198 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh; 
+ 
+  color: #ffffff00;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #ff9800;
+}
+
+.hero p {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+.hero button {
+  background: #ff9800;
+  border: none;
+  padding: 10px 20px;
+  color: #111;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+
+
+.navbar {
+  width: 100%;
+  height: 70px;
+
+  background: #131b24;
+
+  border-bottom: 1px solid #29333d;
+
+  position: relative;
+  z-index: 100;
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+
+  margin: 0 auto;
+  padding: 0 35px;
+
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  color: white;
+  text-decoration: none;
+
+  margin-right: auto;
+}
+
+.logo-icon {
+  color: #ff5b20;
+  font-size: 28px;
+}
+
+.logo strong {
+  display: block;
+
+  color: white;
+
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.logo small {
+  display: block;
+
+  color: #8d969e;
+
+  font-size: 7px;
+  letter-spacing: 1px;
+}
+
+
+
+
+.nav-links {
+  display: flex;
+  align-items: center;
+
+  gap: 28px;
+
+  margin-left: auto;
+}
+
+.nav-links a {
+  position: relative;
+
+  color: #ffffff;
+
+  text-decoration: none;
+
+  font-size: 10px;
+  font-weight: bold;
+
+  padding: 27px 0;
+
+  transition: color 0.3s ease;
+}
+
+
+
+
+.nav-links a::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: 18px;
+
+  width: 0;
+  height: 2px;
+
+  background: #ff5b20;
+
+  transition: width 0.3s ease;
+}
+
+
+
+
+.nav-links a:hover {
+  color: #ff5b20;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+
+
+
+.nav-icons {
+  display: flex;
+
+  margin-left: 25px;
+}
+
+.nav-icons button {
+  width: 45px;
+  height: 45px;
+
+  border: none;
+  border-left: 1px solid #29333d;
+
+  background: #1d2731;
+
+  color: white;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.nav-icons button:hover {
+  background: #ff5b20;
+  color: white;
+}
+
+
+
+.hamburger {
+  display: none;
+
+  margin-left: 15px;
+
+  background: transparent;
+
+  border: none;
+
+  color: white;
+
+  font-size: 25px;
+
+  cursor: pointer;
+}
